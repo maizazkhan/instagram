@@ -1,0 +1,7 @@
+{
+  "name": "Fuzzy Spin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

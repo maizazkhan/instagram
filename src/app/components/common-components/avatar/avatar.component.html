@@ -1,0 +1,16 @@
+<div
+  class="avatar-container"
+  [ngClass]="[
+    size == 'small' ? 'avatar-small' : 
+    size == 'medium' ? 'avatar-medium' : 
+    size == 'large' ? 'avatar-large' : 
+    size == 'profile' ? 'avatar-profile' : 
+    'avatar-custom']">
+
+  <div>
+    <img #image *ngIf="mediaId" [src]="mediaId" class="avatar" />
+
+    <img *ngIf="!mediaId" src="assets/images/Avatar.jpg" class="avatar" />
+  </div>
+
+</div>

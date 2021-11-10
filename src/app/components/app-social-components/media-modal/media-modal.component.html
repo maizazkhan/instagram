@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-row class="title-bar">
+    <icon-button ios="close-outline" md="close-outline" size="extra-large" (click)="closeClicked()" class="modal-close"></icon-button>
+  </ion-row>
+
+  <ion-row class="body-row">
+    <ion-col class="image-column">
+      <media-viewer *ngIf="mediaId"
+        [mediaId]="mediaId" 
+        [videoPreload]="true" 
+        [videoAutoplay]="true" 
+        [fullSize]="true" 
+        [allowOpenItem]="false">
+      </media-viewer>
+    </ion-col>
+  </ion-row>
+</ion-content>

@@ -1,0 +1,14 @@
+div {
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: var(--media-viewer-object-fit, inherit);
+  margin: 0 2px;
+}

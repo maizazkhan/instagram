@@ -1,0 +1,16 @@
+<ion-icon
+  [name]="name"
+  [ios]="ios" 
+  [md]="md" 
+  [src]="src"
+  [color]="colorToUse()"
+  [ngClass]="[ 
+    !disabled ? 'clickable' : '', 
+    size == 'extra-small' ? 'size-extra-small' : 
+    size == 'small' ? 'size-small' : 
+    size == 'large' ? 'size-large' : 
+    size == 'extra-large' ? 'size-extra-large' : 
+    'size-default' 
+    ]"
+  (click)="iconClicked()"
+></ion-icon>

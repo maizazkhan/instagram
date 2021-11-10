@@ -1,0 +1,16 @@
+{
+  "name": "Fuzzy Spin",
+  "short_name": "Fuzzy Spin",
+  "theme_color": "#1976d2",
+  "background_color": "#FADCF0",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "assets/icon/favicon.jpg",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ]
+}

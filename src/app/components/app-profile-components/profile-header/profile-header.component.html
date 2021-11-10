@@ -1,0 +1,30 @@
+<div *ngIf="user" class="ion-hide-md-up mobile">
+  <ion-card-content class="cardcontent">
+
+    <ion-row>
+      <ion-col size="5" >
+        <div class="avatar-container">
+          <avatar class="avatar1" size="" [mediaId]="user?.picture" [firstName]="user?.name?.first"
+          [lastName]="user?.name?.last" class="clickable ion-align-self-center">
+        </avatar>
+        </div>
+      </ion-col>
+
+      <ion-col size="7" style="margin-top: auto;">
+        <p class="name">{{ user?.name?.first }} {{ user?.name?.last }}</p>
+
+        <ion-row *ngIf="user?.gender">
+          <h2 class="gender">Gender | {{ user?.gender }}</h2>
+        </ion-row>
+
+        <ion-row *ngIf="user?.location">
+          <!-- <ion-icon ios="location-outline" md="location-outline" class="medium-icon"></ion-icon> -->
+          <h2 class="address"> {{ user?.location.city }} | {{ user?.location.state }} </h2>
+        </ion-row>
+
+      </ion-col>
+    </ion-row>
+
+  </ion-card-content>
+</div>
+

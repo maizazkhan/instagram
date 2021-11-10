@@ -1,0 +1,28 @@
+ion-col {
+  padding: 0;
+}
+
+.modal-close {
+  position: absolute;
+  right: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.title-bar {
+  position: absolute;
+  right: 0px;
+  color: white;
+}
+
+.body-row {
+  height: 100%; 
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.image-column {
+  max-height: 90vh;
+  overflow: hidden;
+  align-self: center;
+}

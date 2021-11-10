@@ -1,0 +1,12 @@
+<component-loading [loaded]="!isLoading">
+
+  <component-loading *ngIf="mediaId" [loaded]="imageLoaded">
+    <div class="ion-text-center">
+      <img (load)="onImageLoaded()" src="https://picsum.photos/id/{{mediaId}}/300/200" 
+        (click)="openMediaClicked()"
+        [style.width]="width ? width + 'px' : 'inherit'"  [style.height]="height ? height + 'px' : 'inherit'" />
+    </div>
+  </component-loading>
+
+</component-loading>
+

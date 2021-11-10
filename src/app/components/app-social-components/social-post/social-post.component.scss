@@ -1,0 +1,100 @@
+avatar {
+  margin-right: 10px;
+}
+
+ion-card-content,
+ion-col {
+  padding: 0;
+}
+
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.detail-row {
+  padding: 0 15px 15px 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.like-column {
+  margin-top: 14px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+.comment-column {
+  // margin-right: 10px;
+  margin-top: 14px;
+  margin-bottom: 1px;
+  margin-left: 25px;
+}
+
+.media-container {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.view-previous-comments {
+  padding-left: 16px;
+  padding-top: 10px;
+
+  ion-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.hide-border {
+  box-shadow: none;
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.community-arrow {
+  height: 16px; 
+  width: 16px; 
+  margin: 0 0 0 -5px;
+}
+
+.name-column {
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: normal;
+  margin: 10px 5px 0px 2px;
+}
+
+.community-name {
+  overflow: hidden;
+}
+
+.tag-container {
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin: 2px 5px 2px 0;
+}
+.secdiv {
+  overflow: scroll;
+  height: auto;
+  max-height: 20rem;
+}
+.cancelicon {
+  margin-top: 2px;
+  font-size: 1.5rem;
+  color: #e638a9;
+  margin-right: 3px;
+}
+.maindiv {
+  background: #f6fff9;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}

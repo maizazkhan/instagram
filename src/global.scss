@@ -1,0 +1,339 @@
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import 'src/theme/variables.scss';
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Cabin-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Oxygen.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Summerlovingsans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/Summerlovingsans-regular.ttf') format('truetype');
+}
+
+:root {
+  --font-size: 16px;
+  ion-item,
+  ion-card-content,
+  ion-card-content p,
+  ion-note,
+  ion-searchbar {
+    font-size: var(--font-size, 16px);
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: $sm - 1px) {
+  .community-card {
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 7px solid lightgray;
+    border-radius: 0 !important;
+    margin: 0;
+    --background: white;
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--standard-border-color);
+}
+
+.border-top {
+  border-top: 1px solid var(--standard-border-color);
+}
+
+.no-records-message {
+  font-style: italic;
+}
+
+ion-checkbox.md {
+  margin-right: 10px;
+}
+
+.label-stacked {
+  z-index: 99;
+}
+
+.field-input {
+  box-sizing: border-box;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  --padding-start: 10px !important;
+  --padding-end: 10px !important;
+  --padding-top: 6px !important;
+  --padding-bottom: 6px !important;
+}
+
+.field-textarea {
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  margin: 0;
+  --padding-start: 10px !important;
+  --padding-end: 10px !important;
+  --padding-top: 6px !important;
+  --padding-bottom: 6px !important;
+  min-height: 100px;
+}
+
+.action-sheet-class .action-sheet-button {
+  color: var(--ion-color-medium);
+}
+.action-sheet-class .action-sheet-destructive {
+  color: var(--ion-color-danger);
+}
+
+.location-popover .popover-wrapper {
+  --min-width: 300px;
+}
+
+ion-modal .modal-wrapper {
+  --height: 90vh;
+}
+
+.mediaModal .modal-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.mediaModal {
+  --ion-background-color: black;
+}
+
+.button-round {
+  --padding-start: 1em;
+  --padding-end: 1em;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.break-long-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.skeleton-text-small {
+  height: 12px;
+  --border-radius: 5px;
+}
+
+.skeleton-text-medium {
+  height: 16px;
+  --border-radius: 5px;
+}
+
+.skeleton-text-large {
+  height: 20px;
+  --border-radius: 5px;
+}
+
+.skeleton-text-extra-large {
+  height: 24px;
+  --border-radius: 5px;
+}
+
+.skeleton-button-small {
+  height: 28px;
+  --border-radius: 64px;
+}
+
+.content-wrapper,
+.community-card {
+  max-width: var(--max-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+@media (max-width: $md) {
+  .content-wrapper {
+    box-shadow: none !important;
+    margin: 0;
+  }
+}
+@media (min-width: $md) {
+  .page-content {
+    --background: var(--ion-color-light);
+  }
+}
+
+ion-header {
+  padding-top: 14px;
+}
+
+ion-toolbar {
+  padding-bottom: 10px;
+  // border-bottom: 1px solid var(--standard-border-color);
+  // background: var(--ion-color-primary) !important;
+  // color: var(--ion-color-light) !important;
+  ion-title {
+    color: var(--ion-color-secondary);
+    // color: #fff;
+    // color:rgb(128, 128, 128, 1);
+    color: #504f4f;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 15px;
+    // font-family: 'Lobster';
+    text-align: left;
+  }
+  ion-buttons {
+    color: var(--ion-color-secondary) !important;
+    // color: #fff;
+    // color: #666666;
+  }
+  ion-back-button {
+    color:rgb(128, 128, 128, 1);
+  }
+}
+.header-md::after {
+  height: 0px;
+  position: fixed;
+}
+.header-ios ion-toolbar:last-of-type {
+  --border-width: 0px;
+}
+ion-tab-button {
+  --ripple-color: var(--ion-color-primary);
+  --color: #2ca88b !important;
+  --color-selected: #e638a9;
+}
+ion-tab-button.tab-selected {
+  --background: white !important;
+  --color-selected: #e638a9;
+}
+
+ion-tab-button ion-icon.custom-logo {
+  --ripple-color: var(--ion-color-primary);
+  --color: #2ca88b !important;
+  --color-selected: #e638a9;
+  background: #fff url("/../../assets/icon/Logo-green.png") center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 100% !important;
+  // height: 40px !important;
+}
+
+.md ion-tab-button ion-icon.custom-logo {
+  height: 40px !important;
+}
+.ios ion-tab-button ion-icon.custom-logo {
+  height: 40px !important;
+}
+
+ion-tab-button.tab-selected ion-icon.custom-logo {
+  --background: white !important;
+  --color-selected: #e638a9;
+  background: #fff url("/../../assets/icon/Logo-pink.png") center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 100% !important;
+  // height: 40px !important;
+}
+
+.md ion-tab-button.tab-selected ion-icon.custom-logo {
+  height: 40px !important;
+}
+.ios ion-tab-button.tab-selected ion-icon.custom-logo {
+  height: 40px !important;
+}
+
+// ion-tab-button.tab-selected.team-logo {
+//   --background: white !important;
+//   --color-selected: #e638a9;
+//   background: #fff url("/../../assets/icon/trophy-outline.svg") center !important;
+//   background-repeat: no-repeat !important;
+//   background-size: contain !important;
+//   width: 100% !important;
+//   height: 30px !important;
+// }
+
+.mychat {
+  color: red;
+}
+
+.myychat {
+  color: green;
+}
+
+.friendsLogo{
+  width: 9%;
+}
+.fuzyyIcon {
+  font-size: 35px !important;
+  // margin-right: 26px !important;
+  margin-left: -5px;
+}
+
+.fuzyyIcon.ios {
+  margin-right: 15px !important;
+}
+.fuzyyIcon.md {
+  margin-right: 26px !important;
+}

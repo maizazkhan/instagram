@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="page-header">
+    <ion-title class="homeTitle">Insta Clone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-content">
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh()">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <social-feed></social-feed>
+
+</ion-content>

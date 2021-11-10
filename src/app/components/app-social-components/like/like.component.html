@@ -1,0 +1,9 @@
+<ion-row class="ion-align-items-center">
+
+  <ion-icon name="thumbs-up-outline" *ngIf="!showAsLink" class="likeicon"
+  [color]="false ? 'success' : 'medium'" (click)="toggleLikeClicked('Like')"></ion-icon>
+
+  <ion-icon name="thumbs-up-outline" *ngIf="showAsLink" class="likeicon"
+  [color]="true ? 'success' : 'medium'" (click)="toggleLikeClicked('UnLike')"></ion-icon>
+
+</ion-row>

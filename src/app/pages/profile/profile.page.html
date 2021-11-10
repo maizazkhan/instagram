@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="page-header">
+    <ion-buttons slot="start">
+      <ion-back-button *ngIf="!onceClicked" (click)="location.back()" defaultHref=""></ion-back-button>
+      <ion-back-button *ngIf="onceClicked" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'profile.header' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="page-content">
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <component-loading [loaded]="!isLoading">
+
+    <ion-grid class="content-wrapper">
+
+      <profile-header [user]="user" (navSelection)="onMobileNavigationChange($event)"></profile-header>
+
+    </ion-grid>
+
+  </component-loading>
+
+</ion-content>

@@ -1,0 +1,14 @@
+<component-loading [loaded]="!isLoading" [skeletonTemplate]="skeletonTemplate">
+
+  <social-post *ngFor="let post of posts; let i = index;" [index]="i" [postItem]="post" showCommunityInHeader="true"></social-post>
+
+  <ion-infinite-scroll (ionInfinite)="loadMoreData($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</component-loading>
+
+
+<ng-template #skeletonTemplate>  
+  <feed-skeleton></feed-skeleton>
+</ng-template>

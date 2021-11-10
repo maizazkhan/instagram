@@ -1,0 +1,454 @@
+{
+  "appName": "FuzzySpin",
+  "home": "Home",
+  "teams": "Teams",
+  "team": "Team",
+  "feed": "Feed",
+  "videos": "Videos",
+  "schedule": "Schedule",
+  "masterSchedule": "Master Schedule",
+  "roster": "Roster",
+  "details": "Details",
+  "my account": "My Account",
+
+  "button": {
+    "no": "No",
+    "yes": "Yes",
+    "next": "Next",
+    "back": "Back",
+    "finish": "Finish",
+    "save": "Save",
+    "delete": "Delete",
+    "done": "Done",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "create": "Create",
+    "new": "New",
+    "clear": "Clear",
+    "other": "Other",
+    "confirm": "Confirm",
+    "reject": "Reject",
+    "create_chat": "Create Chat",
+    "nudge": "Nudge Players"
+  },
+  "system": {
+    "loading": "Loading..."
+  },
+  "menu": {
+    "header": "Menu",
+    "logOut": "Log Out"
+  },
+  "tabs": {
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "login": "Login"
+  },
+  "time": {
+    "now": "Now",
+    "minutes": "{{ value }} minutes ago",
+    "hours": "{{ value }} hours ago",
+    "yesterdayAt": "Yesterday at {{ value }}",
+    "yesterday": "Yesterday",
+    "todayAt": "Today at {{ value }}",
+    "today": "Today"
+  },
+  "conditional": {
+    "any": "Any",
+    "all": "All",
+    "lessThan": "Less than",
+    "moreThan": "More than",
+    "youngerThan": "Younger than",
+    "olderThan": "Older than",
+    "between": "Between",
+    "and": "and"
+  },
+  "discardChanges": {
+    "message": "Are you sure you want to discard your changes?",
+    "discardChanges": "Discard Changes",
+    "keepEditing": "Keep Editing"
+  },
+  "validation": {
+    "fieldIsRequired": "This field is required",
+    "invalidEmailAddress": "Invalid email address",
+    "pleaseFixErrors": "Please fix errors before proceeding."
+  },
+  "error": {
+    "insertFailed": "Error adding the {{ value }}",
+    "updateFailed": "Error updating the {{ value }}",
+    "deleteFailed": "Error deleting the {{ value }}"
+  },
+  "login": {
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "login": "Login",
+    "loggingIn": "Logging In"
+  },
+  "register": {
+    "register": "Register",
+    "registering": "Registering"
+  },
+  "greetings": {
+    "hi": "Hi",
+    "hello": "Hello",
+    "goodMorning": "Good Morning",
+    "goodAfternoon": "Good Afternoon",
+    "goodEvening": "Good Evening"
+  },
+  "friends": {
+    "fuzzySpinFriends": "FuzzySpin Friends",
+    "header": "Friends",
+    "search": "Search",
+    "findFriends": "Find Friends",
+    "friends": "Friends",
+    "requests": "Requests",
+    "find": "Find",
+    "milesAway": "miles away"
+  },
+  "friendButton": {
+    "addFriend": "Add Friend",
+    "addingFriend": "Adding Friend",
+    "unfriend": "Unfriend",
+    "unfriending": "Unfriending",
+    "respond": "Respond to Request",
+    "responding": "Responding",
+    "cancelRequest": "Cancel Request",
+    "cancelingRequest": "Canceling Request",
+    "friendRequest": "Friend Request",
+    "requestFrom": "Friend request from {{ value }}",
+    "accept": "Accept",
+    "reject": "Reject",
+    "block": "Block",
+    "blocking": "Blocking",
+    "unblock": "Unblock",
+    "unblocking": "unblocking"
+  },
+  "userSearchOptions": {
+    "editOptions": "Options",
+    "onlyShowFriends": "Only Show Friends",
+    "distance": "Distance",
+    "miles": "miles",
+    "rating": "Rating",
+    "age": "Age",
+    "gender": "Gender",
+    "interests": "Interests",
+    "availability": "Availability",
+    "relationshipStatus": "Relationship Status",
+    "court": "Court"
+  },
+  "location": {
+    "header": "Select Location",
+    "selectPostalCode": "Select Location",
+    "selectVenue": "Select Court",
+    "changeLocation": "Change Location",
+    "getLocation": "Get Location",
+    "searchLocation": "Search",
+    "zipCodes": "Zip Codes",
+    "venues": "Courts",
+    "useCurrentLocation": "Use Current Location",
+    "milesAway": "miles away"
+  },
+  "profile": {
+    "header": "Profile",
+    "editProfile": "Edit Profile",
+    "tabs": {
+      "posts": "Posts",
+      "photos": "Photos",
+      "videos": "Videos",
+      "schedule": "Schedule"
+    },
+    "noPhotos": "No photos",
+    "noVideos": "No videos",
+    "viewProfile": "View Profile",
+    "more": "More",
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other/Not Specified"
+    },
+    "relationshipStatus": {
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed",
+      "other": "Other/Not Specified"
+    },
+    "handedness": {
+      "lefty": "Lefty",
+      "righty": "Righty",
+      "other": "Other/Not Specified"
+    },
+    "availability": {
+      "weekdays": "Weekdays",
+      "weeknights": "Weeknights",
+      "weekends": "Weekends"
+    }
+  },
+  "profileEdit": {
+    "newProfile": "New Profile",
+    "editProfile": "Edit Profile",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "mobilePhoneNumber": "Mobile Phone No",
+      "birthdate": "Birth Date",
+      "rating": "Rating",
+      "level": "Playing Level",
+      "gender": "Gender",
+      "handedness": "Handedness",
+      "relationshipStatus": "Relationship Status",
+      "interests": "Interests",
+      "availability": "Availability",
+      "homeVenue1": "Home Court 1",
+      "homeVenue2": "Home Court 2",
+      "homeVenue3": "Home Court 3",
+      "hideFromSearch": "Hide From Search",
+      "about": "About"
+      }
+  },
+  "teamInviteIsPending": {
+    "textWithTeam": "You have been invited to join team {{ name }}",
+    "textWithoutTeam": "You have been invited to join this team",
+    "viewTeam": "View Team"
+  },
+  "teamList": {
+    "onlyCaptainsCanDeleteTeam": "Only captains can delete a team",
+    "deleteTeamConfirmMessage": "Would you like to delete team {{ name }}?"
+  },
+  "addTeam": {
+    "addManually": "Add Manually",
+    "joinByPin": "Join by Pin",
+    "createFromExistingTeam": "Create from Existing Team",
+    "selectATeam": "Select a Team",
+    "teamNotFound": "Sorry, We did not found Team",
+    "noTeamsCreateOneQuestion": "You do not have any active teams. Would you like to create one?",
+    "accessYourTeamByPinCode": "Are you ready to access your tennis team? Please enter your four digit pin code."
+  },
+  "teamEdit": {
+    "newTeam": "New Team",
+    "editTeam": "Edit Team",
+    "fields": {
+      "teamName": "Team Name",
+      "teamNumber": "Team Number",
+      "leagueDescription": "League Description",
+      "singles": "Singles",
+      "doubles": "Doubles",
+      "singlesLinesQuestion": "Singles lines",
+      "doublesLinesQuestion": "Doubles lines",
+      "gender": "Gender",
+      "women": "Women",
+      "men": "Men",
+      "mixed": "Mixed",
+      "playingLevel": "Playing Level",
+      "affiliation": "Affiliation",
+      "affiliationPlaceholder": "e.g., USTA, ALTA, NCAA, etc (optional)",
+      "ageGroup": "Age Group",
+      "ageGroupPlaceholder": "e.g., 18 & Over, 40 & Over, etc (optional)",
+      "practiceDetails": "Practice Details",
+      "notes": "Notes",
+      "copyTeamMembers": "Copy Team Members to this Team"
+    }
+  },
+  "nextMatch": {
+    "noUpcomingMatches": "You do not have any upcoming matches.",
+    "nextMatch": "Next Match"
+  },
+  "match": {
+    "header": "Match",
+    "details": "Details",
+    "viewRoster": "View Roster",
+    "viewScore": "View Score",
+    "availability": "Availability",
+    "editMatch": "Edit",
+    "vs": "vs",
+    "at": "at",
+    "home": "Home",
+    "away": "Away",
+    "address": "Address",
+    "setRoster": "Set Roster",
+    "insertScore": "Insert Score",
+    "playerUnavailableHeader": "Player Unavailable",
+    "playerUnavailableMessage": "This player has indicated that they are not available. Add anyway?",
+    "deleteMatchConfirmMessage": "Would you like to delete this match?"
+  },
+  "matchAvailability": {
+    "available": "Available",
+    "maybe": "Maybe",
+    "notavailable": "Not Available",
+    "noreply": "No Reply"
+  },
+  "matchEdit": {
+    "newMatch": "New Match",
+    "editMatch": "Edit Match",
+    "locationSelectHeader": "Select Location",
+    "fields": {
+      "dateTime": "Date/Time",
+      "location": "Location",
+      "enter_location": "Search Location",
+      "opponentName": "Opponent",
+      "homeOrAway": "Home/Away",
+      "home": "Home",
+      "away": "Away"
+    }
+  },
+  "matchLines": {
+    "header": "Lineup",
+    "selectPlayer": "Select Player",
+    "opponentPlaceholder": "Opponent"
+  },
+  "teamRoster": {
+    "removeCaptain": "Remove as captain",
+    "addCaptain": "Add as a captain",
+    "editPlayer": "Edit player",
+    "deletePlayer": "Remove player from team",
+    "alreadyTwoCaptains": "Only two captains are allowed per team. Remove another captain first.",
+    "deletePlayerConfirmMessage": "Would you like to delete {{ name }} from this team?"
+  },
+  "addTeamMember": {
+    "header": "Add Player",
+    "enterInformation": "Enter information to add new user:",
+    "addFirstName": "First Name",
+    "addLastName": "Last Name",
+    "addEmailAddress": "Email Address",
+    "addMobilePhone": "Mobile Phone Number",
+    "addNewUser": "Add New User"
+  },
+  "addTeamByPin":{
+    "header": "Join Team by Pin"
+  },
+  "teamMemberEdit": {
+    "editTeamMember": "Edit Team Member",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "emailAddress": "Email Address",
+      "mobilePhoneNumber": "Mobile Phone Number",
+      "birthdate": "Birth Date",
+      "rating": "Rating",
+      "gender": "Gender",
+      "handedness": "Handedness"
+      }
+  },
+  "chat": {
+    "header": "Chat",
+    "myChat": "My Chat",
+    "teamChat": "Teams Chat",
+    "participants": "Participants",
+    "newMessage": "Type a new message"
+  },
+  "avatarMenu": {
+    "editProfile": "Edit Profile Picture",
+    "editBanner": "Edit Banner"
+  },
+  "editImageModal": {
+    "title": "Profile Picture",
+    "bannerTitle": "Banner",
+    "upload": "Upload",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "rotateLeft": "Rotate Left",
+    "rotateRight": "Rotate Right",
+    "clearImage": "Clear Image",
+    "noImage": "Upload an image"
+  },
+  "imageUpload": {
+    "tooBig": "The file you chose is too big. Please choose a file that is smaller than 10 MB.",
+    "tooSmall": "The file you chose is too small. Please choose a larger file."
+  },
+  "poll": {
+    "totalResponses": "Total Responses",
+    "undo": "Undo"
+  },
+  "pollEdit": {
+    "newPoll": "New Poll",
+    "editPoll": "Edit Poll",
+    "questionDetails": "Question Details",
+    "answers": "Answers",
+    "fields": {
+      "question": "Question",
+      "allowUserToChangeResponse": "Allow user to change response",
+      "moreInformation": "More Information (shows after poll is answered)",
+      "endDateTime": "End Date/Time",
+      "answer": "Answer",
+      "correctAnswer": "Correct Answer"
+      },
+    "addAnswerRow": "Add Answer Row"
+  },
+  "social": {
+    "like": "Like",
+    "likes": "Likes",
+    "viewPreviousComments": "View previous comments",
+    "inappropriateContentReason": "Please indicate why this content is inappropriate",
+    "reason": "Enter a reason",
+    "invalidReason": "You must provide a reason.",
+    "editPost": "Edit",
+    "share": "Share",
+    "deletePost": "Delete",
+    "reportInappropriateContent": "Report Inappropriate Content",
+    "deletePostConfirmMessage": "Would you like to delete this post?",
+    "deleteCommentConfirmMessage": "Would you like to delete this comment?",
+    "addComment": "Add a comment...",
+    "post": "Post",
+    "posting": "Posting",
+    "postSomething": "Write something...",
+    "invalidFiles": "One or more files were invalid",
+    "seeMore": "See More"
+  },
+  "socialPostEdit": {
+    "newPost": "New Post",
+    "editPost": "Edit Post",
+    "editComment": "Edit Comment",
+    "poll": "Poll"
+  },
+  "community": {
+    "coaching": "Coaching",
+    "community": "Community",
+    "communities": "Communities",
+    "editCommunity": "Edit Community",
+    "lastActivity": "Last Activity",
+    "noActivity": "No Activity",
+    "members": "Members",
+    "join": "Join",
+    "leave": "Leave",
+    "joinCommunity": "Please indicate why you want to join this community.",
+    "leaving": "Leaving",
+    "joining": "Joining",
+    "tabs": {
+      "posts": "Posts",
+      "photos": "Photos",
+      "videos": "Videos",
+      "members": "Members"
+    },
+    "noPhotos": "There are no photos",
+    "noVideos": "There are no videos",
+    "deleteCommunityConfirmMessage": "Would you like to delete community {{ name }}?"
+  },
+  "communityEdit": {
+    "newCommunity": "New Community",
+    "editCommunity": "Edit Community",
+    "fields": {
+      "name": "Name",
+      "description": "Description",
+      "options": "Options",
+      "allowAllUsersToAddPosts": "Allow All Users to Add Posts",
+      "allowAllUsersToAddComments": "Allow All Users to Add Comments",
+      "autoJoinNewUsers": "Auto-join New Users"
+    }
+  },
+  "communityMembers": {
+    "removeAsAdmin": "Remove as Admin",
+    "addAsAdmin": "Add as Admin"
+  },
+  "tagSelector": {
+    "filterButton": "Filter",
+    "noSelectedTags": "Showing All",
+    "popoverHeader": "Select Tags"
+  },
+  "myAccount": {
+    "chatMessages": "Chat Messages",
+    "newFriendRequest": "New Friend Request",
+    "activityTeamChat": "Activity in Team Chat",
+    "nudgeCaptain": "Nudge to Mark Avalaibility"
+  }
+}

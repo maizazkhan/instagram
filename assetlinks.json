@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : {
+      "namespace": "android_app",
+      "package_name": "com.fuzzySpin",
+      "sha256_cert_fingerprints": [
+        "6F:1A:21:2A:78:A2:8E:89:A2:47:49:C2:72:49:91:3E:19:CB:37:41:4E:58:6E:17:88:64:88:CE:28:78:81:4C"
+      ]
+    }
+  }
+]

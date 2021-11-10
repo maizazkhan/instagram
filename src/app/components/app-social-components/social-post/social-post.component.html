@@ -1,0 +1,42 @@
+<ion-card class="community-card" [ngClass]="!showBorder ? 'hide-border' : ''">
+  <ion-card-content>
+    <ion-row class="ion-padding">
+      <avatar size="large" [mediaId]="postItem?.picture?.thumbnail" [firstName]="postItem?.name?.first"
+        [lastName]="postItem?.name?.last" class="clickable ion-align-self-center" (click)="avatarClicked(postItem)">
+      </avatar>
+      <ion-col class="name-column">
+        <ion-row>
+          <ion-col size="auto">
+            <ion-text class="name">{{ postItem?.name?.first }} {{ postItem?.name?.last }}</ion-text>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-note color="medium" style="font-size: 12px;">{{ postItem?.registered?.date | socialDate }}</ion-note>
+        </ion-row>
+      </ion-col>
+      <flex-menu name="ellipsis-horizontal" [menuItems]="popupMenuItems" style="margin-top: -3px;margin-right: 10px;"></flex-menu>
+    </ion-row>
+
+    <ion-row *ngIf="postItem" class="detail-row">
+      <p *ngIf="text" [innerHTML]="text"></p>
+    </ion-row>
+
+    <ion-row *ngIf="showMedia && postItem" class="detail-row ion-align-items-center">
+      <ng-container>
+        <ion-col [size]="'12'" class="media-container">
+          <media-viewer [mediaId]="index"></media-viewer>
+        </ion-col>
+      </ng-container>
+    </ion-row>
+
+    <ion-row class="border-bottom border-top detail-row ion-align-items-center">
+      <ion-col size="6" class="like-column">
+        <like [like]="12"></like>
+      </ion-col>
+      <ion-col size="" class="comment-column">
+        <comment [numberOfComments]="12"></comment>
+      </ion-col>
+    </ion-row>
+
+  </ion-card-content>
+</ion-card>

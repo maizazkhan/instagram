@@ -1,0 +1,15 @@
+
+Communities
+- add logic for Report Inappropriate
+- add logic to update Polls and Media for Posts and Comments
+- add logic to save images to Azure
+
+Match
+- designate match result as being complete, default, or retire
+- add overall record to top of match page
+- lineup print
+
+Teams
+- allow way of hiding "old" Teams
+- add won/loss record for team on team page
+- put in structure to invite new players to team
